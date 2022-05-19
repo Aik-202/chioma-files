@@ -1,0 +1,256 @@
+body{
+    overflow: scroll;
+    background-color: black;
+}
+.first::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;
+    width: 120%;
+    height: 160%;
+    background-image: url("bi.jpg");
+    opacity: 0.45;
+}
+.logo{
+    margin-top: 10px;
+    position: relative;
+}
+.contd::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+    opacity: 0.65;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 33%;
+    position: relative;
+}
+.contd{
+    width: 450px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    position: relative;
+}
+.sig{
+    color: white;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.inp{
+    width: 75%;
+    height: 58px;
+    border-color: transparent;
+    border-radius: 6px;
+    background-color: #303030;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.sigb{
+    width: 76%;
+    height: 58px;
+    color: white;
+    border-radius: 6px;
+    background-color: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    position: relative;
+}
+.ins{
+    padding: 20px 0;
+}
+.contd2{
+    display: flex;
+    flex-direction: row;
+    color: #b3b3b3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    position: relative;
+}
+.need{
+    text-decoration: none;
+    color: #b3b3b3;
+    margin-right: 0px;
+    margin-left: 45%;
+    position: relative;
+}
+.need:hover{
+    text-decoration: underline;
+    text-decoration-color: #b3b3b3;
+}
+.log{
+    display: flex;
+    flex-direction: row;
+    color: #b3b3b3;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+#fb{
+    width: 6%;
+}
+#logi{
+    padding-left: 10px;
+}
+.new{
+    color: #b3b3b3;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.si{
+    color: white;
+    text-decoration: none;
+}
+.si:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.this{
+    color: #b3b3b3;
+    padding-bottom: 45%;
+    margin-bottom: -5%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    position: relative;  
+}
+.lea{
+    color: blue;
+    text-decoration: none;
+}
+.lea:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.cont2{
+    display: flex;
+    position: relative;
+    width: 120%;
+    margin-left: -10px;
+    margin-top: 70px;
+}
+.contd3::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+    opacity: 0.65;
+}
+.contd3{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+.ques{
+    text-decoration: none;
+    color: #b3b3b3;
+    margin-left: 90px;
+    position: relative;
+}
+.ques:hover{
+    text-decoration: underline #b3b3b3;
+}
+.contd4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.contd5{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    padding-bottom: 10%;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+li a:hover{
+    text-decoration: underline #b3b3b3;
+}
+.faq{
+    margin-left: 50px;
+}
+@media only screen and (max-width:700px){
+    body{
+        overflow-y: scroll;
+        overflow-x: none;
+    }
+    .first::before{
+        background-image: none;
+    }
+    .cont{
+        margin-left: -30px;
+        margin-right: 0;
+    }
+    .inp{
+        width:80%
+    }
+    .sigb{
+        width:81%;
+    }
+    .logo{
+        width: 50%;
+        height: 50%;
+    }
+    .contd2{
+        font-size: 12px;
+    }
+    .cont2{
+        margin-left: -5px;
+    }
+    .contd5{
+        margin-right: 10px;
+    }
+    .ques{
+      margin-left: 40px;  
+    }
+    .faq{
+        margin-left: 10px;
+    }
+    li a{
+        font-size: 5px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .cont2{
+        bottom: 0;
+        position: fixed;
+    }
+}

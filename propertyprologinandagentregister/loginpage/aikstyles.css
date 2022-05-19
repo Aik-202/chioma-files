@@ -1,0 +1,377 @@
+body{
+    background-color: #c9c2c2;
+    overflow-y: scroll;
+}
+#back{
+    width: 101.5%;
+    margin: -10px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    background-color: #306;
+    color: white;
+    margin: -10px;
+    margin-top: 5px;
+    position: relative;
+}
+#logo{
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 13.5%;
+    width: 17%;
+    height: 17%;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+}
+ul.others > li{
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    list-style-type: none;
+}
+.oth{
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.diff{
+    background-color: white;
+    border: 1px solid white;
+    padding: 4px 8px 5px 5px;
+    margin-right: 25px;
+    width: fit-content;
+    color: #333;
+}
+#free{
+    width: fit-content;
+    margin: 0;
+    padding: 2px 7px;
+    background-color: #f98813;
+    color: white;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center ;
+    border: 1px solid transparent ;
+    width: 43%;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+.log{
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 0.2;
+    margin-bottom: 50px;
+    color: #306;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+input{
+    width: 98%;
+    margin-bottom: 20px;
+    height: 55px;
+    background-color:#e5e5e5;
+    border-style: none;
+    color: #666;
+    font-size: 17px;
+    font-weight: 500;
+}
+.forg{
+    align-self: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    color: #306;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+.but{
+    padding: 20px;
+    width: 98%;
+    height: 20%;
+    color: white;
+    border-style: none;
+    margin-bottom: 80px;
+    background-color: #306;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+.contd{
+    display: flex;
+    flex-direction: row;
+    margin-left: -21px ;
+    margin-right: -21px;
+    margin-bottom: -5px;
+    background-color: #7f7f7f; 
+}
+.not{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 30px;
+    padding-left: 30%;
+    color: white;
+    background-color: #7f7f7f;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+#reg{
+    font-weight: 0;
+    color: #306;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+.cont3{
+    display: flex;
+    flex-direction: row;
+    background-color: #306;
+    color: white;
+    margin: 10px -10px;
+    border-bottom: 1px solid white;
+}
+#logo2{
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 10px;
+    width: 12%;
+    height: 12%;
+}
+.others2{
+    display: flex;
+    flex-direction: row;
+}
+ul.others2 > li{
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    list-style-type: none;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+#ag{
+    margin-right: 270px;
+}
+#ad{
+    margin-left: 280px;
+    padding: 5px;
+    border: 1px solid #555;
+}
+.cont4{
+    display: flex;
+    flex-direction: row;
+    margin: -10px;
+    color: white;
+    background-color: #333;
+}
+ul.others3 > li{
+    margin-left: -30px;
+    margin-right: 70px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    list-style-type: none;
+}
+#hea{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+.cont5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -10px;
+    color: white;
+    background-color: #333;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+#copy{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#soci{
+    font-size: 15px;
+    font-weight: 500;
+    align-self: flex-end
+}
+#so{
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+.i1{
+    width: 15%;
+    height: 15%;
+    margin-right: 8px;
+    margin-bottom: 80px;
+}
+@media only screen and (max-width:1200px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    #back{
+        width: 130%;
+    }
+    .cont1{
+        width: 130%;
+    }
+    .cont2{
+        margin-left: 40%;
+    }
+    ul.others > li{
+        font-size: 15px;
+    }
+    .cont33{
+        width: 130%;
+    }
+    ul.others2 > li{
+        font-size: 15px;
+    }
+    .cont44{
+        width: 130%;
+    }
+    ul.others3 >li{
+        font-size: 13px;
+    }
+    #hea{
+        font-size: 14px;
+    }
+    .cont55{
+        width: 130%;
+    }
+    .lo{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:700px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    #back{
+        display: none;
+    }
+    header{
+        width: 100%;
+        position: fixed;
+        margin-top: -23%;
+    }
+    .cont{
+        margin-top: -10px;
+    }
+    #logo{
+        width: 55%;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .others{
+        display: none;
+    }
+    .cont2{
+        margin-top: 23%;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 10%;
+        margin-bottom: 8%;
+        padding: 10px;
+    }
+    .log{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    input{
+        height: 35px;
+    }
+    .forg{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .but{
+        padding: 10px;
+        height: 10%;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .contd{
+        margin: 0 -11px -11px -11px;
+    }
+    .not{
+        font-size: 17px;
+        padding: 10px;
+        padding-left: 6%;
+        width: 100%;
+    }
+    #reg{
+        padding-left: 10%;
+    }
+    .cont3{
+        flex-direction: column;
+        border-bottom: none;
+        width: 135%;
+    }
+    #logo2{
+        align-self: center;
+        width: 50%;
+        height: 50%;
+        margin-bottom: -2%;
+    }
+    .others2{
+        flex-direction: column;
+    }
+    ul.others2 > li{
+        align-self: center;
+        margin-left: -5%;
+        margin-bottom: 2%;
+    }
+    #ag{
+        margin-right: 0;
+    }
+    #ad{
+        margin-top: 5%;
+        margin-left: -8%;
+        padding: 10px 20%;
+        padding-left: 18%;
+    }
+    .cont4{
+        flex-direction: column;
+        width: 135%;
+    }
+    ul.others3 > li{
+        display: none;
+    }
+    #hea{
+        font-size: 13px;
+        display: block;
+        text-align: center;
+        padding-left: 16%;
+    }
+    .cont5{
+        flex-direction: column;
+        width: 135%;
+    }
+    #copy{
+        align-self: center;
+        font-size: 13px;
+        padding-left: 12%;
+    }
+    #soci{
+        align-self: center;
+        font-size: 13px;
+        padding-left: 20%;
+    }
+    .face{
+        margin-left: -30px;
+    }
+    #res{
+        padding-left: 36%;
+    }
+}

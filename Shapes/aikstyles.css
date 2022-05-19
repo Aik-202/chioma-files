@@ -1,0 +1,126 @@
+body{
+    background-color: #d5dfff;
+}
+p{
+    margin: 50px;
+}
+div.rectangle{
+    width:150px;
+    height:150px;
+    background-color: #2b58ff;
+    margin:20px;
+}
+div.circle{
+    width:150px;
+    height:150px;
+    border-radius:50%;		
+    background-color: #2bff5981;		
+    margin:20px;
+}
+div.oval{
+    width:200px;
+    height:150px;
+    border-radius:50%;
+    background-color: #512bff;
+    margin:20px;
+}
+div.parallelogram{
+    width:200px;
+    height:150px;
+    transform:skew(20deg);
+    background-color: #f00969e1;
+    margin:30px;
+}
+div.triangleup{
+width: 0;
+height: 0;
+    border-left:125px solid transparent;
+    border-right:125px solid transparent;
+    border-bottom:150px solid #002dff;
+    margin:20px;
+}
+div.triangledown{
+width: 0;
+height: 0;
+    border-left:125px solid transparent;
+    border-right:125px solid transparent;
+    border-top:150px solid #ff792bc0;
+    margin:20px;
+}
+div.triangleleft{
+width: 0;
+height: 0;
+    border-top:125px solid transparent;
+    border-bottom:125px solid transparent;
+    border-right:150px solid #4815ff9f;
+    margin:20px;
+}
+div.triangleright{
+width: 0;
+height: 0;
+    border-top:125px solid transparent;
+    border-bottom:125px solid transparent;
+    border-left:150px solid #ffe240e1;
+    margin:20px;
+    margin-left: 50px;
+}
+div.diamond1{
+    width: 0;
+height: 0;
+border: 150px solid transparent;
+border-bottom-color: #32557f;
+top: -50px;
+    margin:0px;
+}
+div.diamond2{
+    width: 0;
+height: 0;
+border: 150px solid transparent;
+border-top-color: #32557f;
+bottom: -50px;
+    margin:0px;
+}
+div.s1{
+    width: 0;
+height: 0;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    border-bottom:50px solid #6b139ed7;
+  margin-left:70px;
+}
+div.s2{
+    width: 0;
+height: 0;
+    border-top:25px solid transparent;
+    border-bottom:25px solid transparent;
+    border-left:50px solid #6b139ed7;
+    margin-left:170px;
+    
+}
+div.s3{
+    width: 0;
+height: 0;
+    border-top:25px solid transparent;
+    border-bottom:25px solid transparent;
+    border-right:50px solid #6b139ed7;
+    margin-top:-50px;
+    margin-left:22px;
+}
+div.s4{
+    width: 0; 
+height: 0;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    border-top:50px solid #6b139ed7;
+    margin-right:50px;
+    margin-left:70px;
+}
+div.s5{
+    width: 0;
+height: 0;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    border-top:50px solid #6b139ed7;
+    margin-left:120px;
+    margin-top: -50px;
+}
